@@ -1,0 +1,214 @@
+/* reset default styles */
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+  /* position: relative; */
+}
+
+*:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+html {
+  box-sizing: border-box;
+  font: 80% 'Source Sans Pro', sans-serif;
+}
+
+
+body {
+  margin: 0px;
+  line-height: 1.3;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.8rem;
+}
+
+a,
+p,
+li,
+button,
+div {
+  font-size: 1.4rem;
+}
+
+small {
+  font-size: 1.2rem;
+}
+
+figure {
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin-inline-start: 0;
+  margin-inline-end: 0;
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+button {
+  border-radius: 0;
+  background: transparent;
+}
+
+/* app container styling */
+body {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  background: lightblue;
+  color: black;
+}
+
+.mainSection {
+  margin-bottom: 5rem;
+}
+
+/* page options */
+.cardsPageOptions {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 3rem;
+}
+
+.cardsPageOptions button {
+  width: 100%;
+  max-width: 200px;
+  font-size: 14px;
+  padding: 1rem 1.5rem;
+}
+
+.card {
+  color: black;
+  background: #f3f3f3;
+  padding: 2rem;
+  border: 1px solid lightgray;
+  width: 300;
+  height: 300;
+  box-shadow: 1px 1px 5px rgba(22, 22, 22, 0.915);
+}
+
+.pageHeader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* button options */
+.btnMain {
+  color: #e4e4e4;
+  background: steelblue;
+  border: 1px solid steelblue;
+  padding: 0.5rem 1rem;
+  height: 3rem;
+}
+
+.btnSecondary {
+  background: #f3f3f3;
+  padding: 0.5rem 1rem;
+  height: 3rem;
+}
+
+.btnLg {
+  height: 5rem;
+}
+
+/* character photo */
+.cardImage {
+  max-width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.cardImage img {
+  width: 175px;
+  height: 175px;
+}
+
+/* custom character styles */
+.customCardContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.customizeCard {
+  max-width: 30rem;
+  width: 100%;
+  align-self: center;
+}
+
+/* create character styles */
+.createCardContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.createCard {
+  max-width: 25em;
+  width: 100%;
+  align-self: center;
+}
+
+.createCardFields {
+  width: 100%;
+  display: flex;
+  margin-bottom: 0.2rem;
+}
+
+.createCardFields label {
+  min-width: 8rem;
+  width: 9rem;
+}
+/* cards container */
+.cardContainer {
+  padding: 1rem 3rem;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+/* character card container */
+.cardBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0.5rem;
+}
+
+/* character card header */
+.cardBoxContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.cardBoxContainer div {
+  width: 100%;
+}
+
+.cardBoxContainer h3 {
+  margin: 0;
+}
+/* character card photo */
+.charBox .cardImage {
+  justify-content: center;
+}
